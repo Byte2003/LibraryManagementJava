@@ -1,0 +1,66 @@
+body{
+    background-color: gray
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.header-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input-search {
+    width: 300px;
+    height: 40px;
+}
+.notification{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 259px;
+    background-color: white;
+}
+.sidebar-item {
+    list-style-type: none;
+    border-radius: 0.25rem;
+
+}
+.sidebar-item i {
+    color: grey;
+}
+.sidebar-item span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.sidebar-item a {
+    text-decoration: none;
+}
+
+.sidebar-item-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sidebar-item:hover {
+    background-color: #f7f7fa;
+}
+.non-input {
+    border:0;
+    background: none;
+}
+
